@@ -1,0 +1,12 @@
+
+# --- iml --- #
+*.iml
+
+# --- gradle --- #
+buildSrc/.gradle
+
+# --- mac ds store --- #
+.DS_Store
+
+# --- build --- #
+buildSrc/build
