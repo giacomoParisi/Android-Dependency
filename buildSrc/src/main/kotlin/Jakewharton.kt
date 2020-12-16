@@ -1,8 +1,3 @@
-package dependencies.jakewharton
-
-import dependencies.Dependency
-import dependencies.DependencyIndependentGroup
-
 object Jakewharton : DependencyIndependentGroup("com.jakewharton") {
 
     object Timber : Dependency(

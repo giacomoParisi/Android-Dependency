@@ -1,5 +1,3 @@
-package dependencies
-
 open class DependencyGroup(val group: String, val version: String)
 
 open class DependencyIndependentGroup(val group: String)

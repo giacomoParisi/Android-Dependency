@@ -1,8 +1,3 @@
-package dependencies.arrow
-
-import dependencies.Dependency
-import dependencies.DependencyGroup
-
 object Arrow : DependencyGroup("io.arrow-kt", "0.11.0") {
 
     object Fx : Dependency(Arrow.group, "arrow-fx", Arrow.version)

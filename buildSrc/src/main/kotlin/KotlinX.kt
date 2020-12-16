@@ -1,8 +1,3 @@
-package dependencies.kotlinx
-
-import dependencies.Dependency
-import dependencies.DependencyGroup
-
 object KotlinX : DependencyGroup("org.jetbrains.kotlinx", "1.4.1") {
 
     object Coroutines {

@@ -1,9 +1,3 @@
-package dependencies.androidx
-
-import dependencies.Dependency
-import dependencies.DependencyGroup
-import dependencies.DependencyIndependentGroup
-
 object AndroidX {
 
     object AppCompat : Dependency("androidx.appcompat", "appcompat", "1.2.0")

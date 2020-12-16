@@ -1,8 +1,3 @@
-package dependencies.giacomoparisi
-
-import dependencies.Dependency
-import dependencies.DependencyGroup
-
 object GiacomoParisi {
 
     object SpanDroid : DependencyGroup("com.giacomoparisi.spandroid", "0.1") {

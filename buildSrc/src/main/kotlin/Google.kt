@@ -1,9 +1,3 @@
-package dependencies.google
-
-import dependencies.Dependency
-import dependencies.DependencyGroup
-import dependencies.DependencyIndependentGroup
-
 object Google {
 
     object Material : Dependency(

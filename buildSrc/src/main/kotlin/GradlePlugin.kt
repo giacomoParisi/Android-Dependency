@@ -1,9 +1,3 @@
-package dependencies.plugins
-
-import Google
-import Kotlin
-import dependencies.Dependency
-
 object GradlePlugin {
 
     object Android : Dependency(

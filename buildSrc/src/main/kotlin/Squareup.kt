@@ -1,8 +1,3 @@
-package dependencies.squareup
-
-import dependencies.Dependency
-import dependencies.DependencyGroup
-
 object Squareup {
 
     object Moshi : DependencyGroup("com.squareup.moshi", "1.11.0") {
