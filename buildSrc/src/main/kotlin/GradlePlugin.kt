@@ -45,4 +45,11 @@ object GradlePlugin {
             Google.Dagger.Hilt.version
         )
 
+    object OneSignal:
+        Dependency(
+            "gradle.plugin.com.onesignal",
+             "onesignal-gradle-plugin",
+             "[0.12.9, 0.99.99]"
+        )
+
 }
