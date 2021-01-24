@@ -93,6 +93,11 @@ object AndroidX {
 
         }
 
-    }
+        object Core: Dependency(Test.group, "core", "1.3.0")
 
+        object Rules: Dependency(Test.group, "rules", "1.1.0")
+
+        object Runner: Dependency(Test.group, "runner", "1.1.0")
+
+    }
 }
