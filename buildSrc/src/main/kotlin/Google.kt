@@ -17,18 +17,18 @@ object Google {
         object AnalyticsKtx : Dependency(
             Firebase.group,
             "firebase-analytics-ktx",
-            "18.0.0"
+            "18.0.1"
         )
 
         object MessagingKtx : Dependency(
             Firebase.group,
             "firebase-messaging-ktx",
-            "21.0.0"
+            "21.0.1"
         )
 
     }
 
-    object ExoPlayer : DependencyGroup("com.google.android.exoplayer", "2.12.1") {
+    object ExoPlayer : DependencyGroup("com.google.android.exoplayer", "2.12.3") {
 
         object Core : Dependency(ExoPlayer.group, "exoplayer-core", ExoPlayer.version)
 
@@ -38,7 +38,7 @@ object Google {
 
     object Dagger : DependencyIndependentGroup("com.google.dagger") {
 
-        object Hilt : DependencyGroup(Dagger.group, "2.30.1-alpha") {
+        object Hilt : DependencyGroup(Dagger.group, "2.31.2-alpha") {
 
             object Android : Dependency(Dagger.group, "hilt-android", Hilt.version)
 
@@ -54,7 +54,7 @@ object Google {
 
     object Test {
 
-        object Truth : Dependency("com.google.truth", "truth", "1.1")
+        object Truth : Dependency("com.google.truth", "truth", "1.1.2")
 
     }
 

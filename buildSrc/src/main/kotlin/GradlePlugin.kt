@@ -3,7 +3,7 @@ object GradlePlugin {
     object Android : Dependency(
         "com.android.tools.build",
         "gradle",
-        "4.1.1"
+        "4.1.2"
     )
 
     object KotlinPlugin : Dependency(
